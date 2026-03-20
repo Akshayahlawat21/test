@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* Custom design tokens */
+@theme {
+  --color-primary-50: #fdf4f3;
+  --color-primary-100: #fce8e6;
+  --color-primary-200: #f9d4d0;
+  --color-primary-300: #f3b1aa;
+  --color-primary-400: #ea8477;
+  --color-primary-500: #dc5f4e;
+  --color-primary-600: #c94432;
+  --color-primary-700: #a93626;
+  --color-primary-800: #8c3024;
+  --color-primary-900: #752d24;
+  --color-primary-950: #40140e;
+
+  --color-accent-50: #f0fdf5;
+  --color-accent-100: #dcfce8;
+  --color-accent-200: #bbf7d1;
+  --color-accent-300: #86efac;
+  --color-accent-400: #4ade80;
+  --color-accent-500: #22c55e;
+  --color-accent-600: #16a34a;
+  --color-accent-700: #15803d;
+  --color-accent-800: #166534;
+  --color-accent-900: #14532d;
+  --color-accent-950: #052e16;
+
+  --color-warm-50: #fffbeb;
+  --color-warm-100: #fef3c7;
+  --color-warm-200: #fde68a;
+  --color-warm-300: #fcd34d;
+  --color-warm-400: #fbbf24;
+  --color-warm-500: #f59e0b;
+  --color-warm-600: #d97706;
+  --color-warm-700: #b45309;
+  --color-warm-800: #92400e;
+  --color-warm-900: #78350f;
+  --color-warm-950: #451a03;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 antialiased;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "golf-charity-platform",
+  "private": true,
+  "scripts": {
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "build:client": "cd client && npm run build",
+    "start:server": "cd server && npm start",
+    "install:all": "cd client && npm install && cd ../server && npm install"
+  }
+}
